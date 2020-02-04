@@ -1,11 +1,11 @@
-%--- Master script for Starr et al. 2020, 'Southern Ocean Lead' ---%
+%--- Master script for Starr et al. in review, 'Southern Ocean Lead' ---%
 % Jan 2020
 %- Citation: 
 %              Aidan Starr*, Ian R. Hall, Stephen Barker, Sidney R.
 %              Hemming, Jeroen van der Lubbe, Melissa A. Berke, Grant R.
 %              Bigg, Alejandra Cartagena, Francisco J. Jiménez-Espejo, Jens
 %              Gruetzner, Gregor Knorr, Nambiyathodi Lathika, Leah J.
-%              LeVay, Rebecca Robinsonk, Martin Zieglerl, Xu Zhangh,m, Exp.
+%              LeVay, Rebecca Robinson, Martin Ziegler, Xu Zhang, Exp.
 %              361 Science Party. 
 %              "A Southern Ocean Lead Over Deep Water-Mass Reorganizations 
 %              during Pleistocene Glacials". 

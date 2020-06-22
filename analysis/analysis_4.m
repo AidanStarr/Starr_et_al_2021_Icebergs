@@ -13,11 +13,14 @@ x1l = interp1(-age2,x1,tl,'linear','extrap');
 SM = 10; % moving average filter degree
 f3s = filtfilt (ones(1,round(SM/dt))/round(SM/dt),1,x3l); % Moving average
 
-
 %---- Step 3: Divide d18O into Glacials ----%
-lcs = load('glac_load.mat');
-pk = lcs.glac_load;
-
+% lcs = load('glac_load.mat');
+% pk = lcs.glac_load;
+[~,pk] = findpeaks(-f3s,tl,'minpeakheight',-3.37,'minpeakdistance',25);
+pk = [pk; -496; -76];
+pk=sort(pk);
+pk = pk(2:end)
+clear('cp','ircp','d18c','tp')
 %---- Step 4: Integrate under d18O curve for each glacial ----%
 for i = 1 : length(pk)
     n1 = find(tl>=pk(i),1,'first');
@@ -46,6 +49,7 @@ for i = 1 : length(pk)
 end
 
 %---- Step 5: 'normalise' the results to percentages of total accumulation ----%
+clear('cpp','ircpp','tpp')
 for i = 1:length(cp)
     cpp{i} = (cp{i}./(max(cp{i}))).*100;
     ircpp{i} = (ircp{i}./(max(ircp{i}))).*100;

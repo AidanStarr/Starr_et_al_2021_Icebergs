@@ -43,10 +43,7 @@ data = readtable('raw/starr_et_al_2020_data.xlsx');
 bd13c = data.C_WuellerstorfiD13C_vs_PDB_;
 bd18o = data.C_WuellerstorfiD18O_vs_PDB_;
 irdmar = data.IRDApparentMAR_grains_cm2_kyr_;
-[age,n] = unique(data.MedianAge_kyr_);
-irdmar = irdmar(n);
-bd13c = bd13c(n);
-bd18o = bd18o(n);
+[age = unique(data.MedianAge_kyr_);
 
 dt = 1.5; % set dt for linearly rescaled data (used later)
 lt = [0 : dt : 1645]; % create linear time scale in kyrs

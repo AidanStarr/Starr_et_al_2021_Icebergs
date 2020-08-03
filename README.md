@@ -1,8 +1,8 @@
 # Southern_Ocean_Lead
-Code for the (in review) manuscript "A Southern Ocean Lead over Deep Water-Mass Reorganizations During Pleistocene Glacials" Data available following moratorium at pangaea.de (awaiting DOI).
+Code for the (in review) manuscript "An Antarctic Iceberg Melt Driver of Glacial Deep Water-Mass Reorganizations" Data available following moratorium at pangaea.de (https://doi.pangaea.de/10.1594/PANGAEA.921111).
 
 ## /raw
-Containing the raw data, archived at pangaea.de (link).
+Containing the raw data, archived at pangaea.de.
 
 ## /analysis
 Sub-directory containing the Matlab code for analysis of the raw data. Split into 4 parts (.m files) called by master.m. The dependencies "Ar1Sur.m" and "nexcf.m" are from http://tocsy.pik-potsdam.de/nest.php and are detailed in 1,2,3.
@@ -21,8 +21,8 @@ Contact:
 - Aidan Starr (lead author) [here](mailto:StarrA1@Cardiff.ac.uk) or [here](mailto:Aidan.M.Starr@gmail.com)
 - Ian R. Hall (senior co-author and IODP expedition co-PI) [here](mailto:Hall@Cardiff.ac.uk)
 - Thomas Rackow (for further info on the pyberg iceberg module) [here](mailto:rackow@awi.de)
-- Xu Zhang (for further info on the COSMOS Earth System Model) [here](mailto:zhang@hotmailcom)
-- Addresses for all co-authors are available through the online article at DOI...
+- Xu Zhang (for further info on the COSMOS model) [here](mailto:zhang@hotmailcom)
+- Addresses for all co-authors are available through the online article
 
 ## Selected (code-related) References
 References

@@ -1,5 +1,5 @@
 # Southern_Ocean_Lead
-Code for the (in review) manuscript "An Antarctic Iceberg Melt Driver of Glacial Deep Water-Mass Reorganizations" Data available following moratorium at pangaea.de (https://doi.pangaea.de/10.1594/PANGAEA.921111).
+Code for the manuscript "An Antarctic Iceberg Melt Driver of Glacial Deep Water-Mass Reorganizations" (in review: _Nature_). Data available following moratorium at pangaea.de (https://doi.pangaea.de/10.1594/PANGAEA.921111).
 
 ## /raw
 Containing the raw data, archived at pangaea.de.

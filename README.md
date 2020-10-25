@@ -30,3 +30,4 @@ References
 2. Rehfeld, K., Marwan, N., Breitenbach, S., Kurths, J.: Comparison of correlation analysis techniques for irregularly sampled time series, Climate Dynamics, Late Holocene Asian Monsoon Dynamics from small but complex paleoclimate networks, 41(1), 3-19 2013.
 3. Rehfeld, K., Kurths, J.: Similarity measures for irregular and age uncertain time series, Clim. Past., 10, 107-122, 2014.
 4. Barker, S., Chen, J., Gong, X., Jonkers, L., Knorr, G., & Thornalley, D.: Icebergs not the trigger for North Atlantic cold events, Nature, 520(7547), 333-336. 2015.
+5. Rackow, T., Wesche, C., Timmermann, R., Hellmer, H. H., Juricke, S., and Jung, T.: A simulation of small to giant Antarctic iceberg evolution: Differential impact on climatology estimates, J. Geophys. Res. Oceans, 122, 3170–3190, 2017.
